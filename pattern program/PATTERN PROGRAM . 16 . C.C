@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char i,j;
+	clrscr();
+	for(i='A';i<='E';i++)
+	{
+	  for(j='A';j<=i;j++)
+	  {
+	    printf("%c ",j);
+	  }
+	  printf("\n");
+	}
+	getch();
+}
+
+OUTPUT :- A
+          A B
+          A B C
+          A B C D
+          A B C D E

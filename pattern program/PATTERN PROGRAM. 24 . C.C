@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char i,j;
+	clrscr();
+	for(i=4;i>=0;i--)
+	{
+	  for(j=0;j<=i;j++)
+	  {
+	    printf("%c ",i+65);
+	  }
+	  printf("\n");
+	}
+	getch();
+}
+
+PROGRAM WITH ASCCI CODE :-
+ 
+OUTPUT :- E E E E E
+          D D D D
+          C C C
+          B B
+          A

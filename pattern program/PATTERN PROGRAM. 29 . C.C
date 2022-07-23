@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,j,n=5,k;
+	clrscr();
+	for(i=1;i<=n;i++)
+	{
+	  for(j=n-1;j>=i;j--)
+	  {
+	    printf(" ");
+	  }
+	  for(k=1;k<=i;k++)
+	  {
+	    printf("%d ",i);
+	  }
+	  printf("\n");
+	}
+	getch();
+}
+
+OUTPUT :-    1
+            2 2
+           3 3 3
+          4 4 4 4
+         5 5 5 5 5  
